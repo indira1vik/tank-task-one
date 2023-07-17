@@ -51,6 +51,6 @@ npm run serve
 2. Follow the steps above from `STEP NUMBER 4`.
 
 #### Final Output looks like : 
-![Sample Screenshot](./screenshots/Large-Cuboidal-Orange.jpg)
+![Sample Screenshot](./views/Large-Cuboidal-Orange.jpg)
 
 Thank You.
