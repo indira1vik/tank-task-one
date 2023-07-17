@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+
+header {
+    background-color: black;
+}
+.navbar-brand img{
+    width: 212px;
+    height: 36px;
+}
+
+#svgimg {
+    width: 36%;
+}
+
+#tankdata {
+    display: flex;
+    gap: 48px;
+}
+
+#dispTank {
+    display: none;
+}
+
+.details {
+    margin-top: 24px;
+}
+
+#st {
+    text-transform: capitalize;
+}
+
+@media screen and (max-width: 512px) {
+    #svgimg {
+        width: 54%;
+    }
+
+    #tankdata {
+        display: block;
+    }
+}

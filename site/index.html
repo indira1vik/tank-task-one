@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>COMPANY NAME - Tanks</title>
+    <script src="./index.js"></script>
+    <link rel="stylesheet" href="./style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <h3 style="margin: 0;">COMPANY NAME</h3>
+                </a>
+            </div>
+        </nav>
+    </header>
+    <div>
+        <div class="container mt-4">
+            <div>
+                <div class="mb-3">
+                    <label class="form-label">Enter Liquid Level</label>
+                    <input type="number" class="form-control" id="lvl">
+                    <div id="emailHelp" class="form-text">Ex. 1400 (in mm) - Max Value 3000</div>
+                </div>
+                <div class="mb-4">
+                    <select id="mySelect" class="form-select">
+                        <option selected>Select Structure</option>
+                        <option value="sphere">Sphere</option>
+                        <option value="cylinder">Cylinder</option>
+                        <option value="cube">Cube</option>
+                        <option value="cuboidal">Cuboidal</option>
+                    </select>
+                </div>
+                <button class="btn btn-primary" id="updbtn">Update / View</button>
+            </div>
+        </div>
+        <div id="dispTank" class="container mt-4">
+            <h4 id="id"></h4>
+            <div id="tankdata">
+                <div id="svgimg"></div>
+                <div class="details">
+                    <h5>Structure : </h5>
+                    <div id="st"></div>
+                    <h5>Height Of Tank (mm) : </h5>
+                    <div id="ht"></div>
+                    <h5>Width Of Tank (mm) : </h5>
+                    <div id="wd"></div>
+                    <h5>Length Of Tank (mm) : </h5>
+                    <div id="ln"></div>
+                    <h5>Liquid Level Of Tank (mm) : </h5>
+                    <div id="lv"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
